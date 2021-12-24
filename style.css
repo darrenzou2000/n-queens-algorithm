@@ -1,0 +1,48 @@
+body{
+    justify-content: center;
+    text-align: center;
+}
+#Board{
+    margin: auto;
+    border: black 2px solid;
+    height: 80vh;
+    width: 80vw;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.taken{
+    background-color: lightgreen;
+}
+.queen{
+    background-image: url("queen.png");
+    background-size: 100% 100%;
+}
+#playAgain{
+    margin-top: 20px;
+    height: 80px;
+    width:100px;
+    background-color: aqua;
+    font-size: large;
+    z-index: 1;
+}
+#win{
+    display: none;
+    top:0;
+    position: absolute;
+    max-height: 80vh;
+    width: 80vw;
+}
+#win img{
+    max-height: 80vh;
+    width: 80vw;
+} 
+#finish{
+    display: none;
+    background-color: antiquewhite;
+    height: 80px;
+    width:150px;
+}
